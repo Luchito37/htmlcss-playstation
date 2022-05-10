@@ -1,0 +1,110 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo-nav-dark{
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo-nav{
+    max-width: 100px;
+}
+
+.big-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-white{
+    display: flex;
+    align-items: center;
+}
+
+.item-nav-white{
+    display: flex;
+    gap: 10px;
+}
+
+.icon-size{
+    color: #00000099;
+    font-size: 12px;
+}
+
+.small-nav{
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.btn-darkest{
+    color: white;
+    background-color: #212529;
+    border: solid #212529;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+
+
+/*----------SECTION FIRST-------*/
+
+
+.section-first{
+    background-position: top;
+    background-image: url(../img/jumbo-bg.png);
+    height: 85vh;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    color: white;
+}
+
+.img-logo-banner{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.text-banner{
+    padding: 20px 0;
+}
+
+.btn-redred{
+    color: white;
+    background-color: #ce1800;
+    border: solid #ce1800;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+
+/*----------SECTION SECOND-------*/
+
+
+.section-first-bottom{
+    padding: 20px;
+}
+
+.container-img-banner{
+    border: solid 1px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.container-img-banner:hover{
+    border: solid 8px white;
+    box-shadow: 0px 0px 3px 6px #00ecff;
+}
+
+.img-baner-bottom{
+    width: 100%;
+}
+
