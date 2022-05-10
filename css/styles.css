@@ -90,7 +90,7 @@ a{
 
 
 .section-first-bottom{
-    padding: 20px;
+    padding: 50px 20px;
 }
 
 .container-img-banner{
@@ -107,4 +107,46 @@ a{
 .img-baner-bottom{
     width: 100%;
 }
+
+
+
+/*----------SECTION SECOND-------*/
+
+
+
+.Playstation5{
+    padding: 30px 0;
+}
+
+
+.text-playstation5{
+    text-align: center;
+    padding: 40px 0;
+}
+
+.text-blue{
+    color: rgb(5, 61, 202);
+}
+
+.contain-big-img{
+    display: flex;
+    align-items: center;
+}
+
+.btn-blueblue{
+    color: white;
+    background-color: rgb(5, 61, 202);
+    border: solid rgb(5, 61, 202);
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+.img-playstation5{
+    width: 100%;
+}
+
+.text-img-button{
+    text-align: center;
+}
+
 
