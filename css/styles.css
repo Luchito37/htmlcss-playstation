@@ -145,6 +145,22 @@ a{
     width: 100%;
 }
 
+.img-grey{
+    transition: filter;
+    transition-property: filter;
+    transition-duration: 0s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.img-grey:hover{
+    filter: grayscale(1);
+}
+
+.playstation-component:hover{
+    
+    border-bottom: solid 2px rgb(5, 61, 202);
+}
 .text-img-button{
     text-align: center;
 }
