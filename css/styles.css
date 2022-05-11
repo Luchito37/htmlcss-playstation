@@ -61,10 +61,10 @@ a{
 .section-first{
     background-position: top;
     background-image: url(../img/jumbo-bg.png);
-    height: 85vh;
+    height: 80vh;
     display: flex;
     align-items: flex-end;
-    padding: 20px;
+    padding: 40px;
     color: white;
 }
 
@@ -107,6 +107,7 @@ a{
 .img-baner-bottom{
     width: 100%;
 }
+
 
 
 
@@ -156,6 +157,9 @@ a{
 .img-grey:hover{
     filter: grayscale(1);
 }
+.playstation-component{
+    height: 100%;
+}
 
 .playstation-component:hover{
     
@@ -165,4 +169,132 @@ a{
     text-align: center;
 }
 
+.section-second-bottom{
+    padding: 50px 0;
+}
 
+
+
+/*----------SECTION THIRD-------*/
+
+
+.section-third{
+    background-position: top;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 85vh;
+    display: flex;
+    align-items: flex-end;
+    padding: 40px 0px;
+    color: white;
+}
+
+.section-third-bottom{
+    background-color: #212529;
+    color: white;
+    padding: 40px 0;
+}
+
+
+
+/*----------SECTION FIFTH-------*/
+
+
+
+.section-PS-PLUS{
+    background-color: #969696;
+}
+
+.ps-plus-text{
+    padding: 20px 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ps-plus-img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    height: 100%;
+}
+
+.btn-sky-blue{
+    color: rgb(29, 104, 232);
+    background-color: #b6bbbc;
+    border: solid #b6bbbc;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+
+
+/*----------SECTION SIXTH-------*/
+
+
+
+.section-sale{
+    padding: 100px 0;
+}
+
+
+
+/*----------SECTION SIXTH-------*/
+
+
+
+
+.section-PS-NOW{
+    background-color: #001252;
+    color: white;
+}
+
+
+
+/*----------SECTION SIXTH-------*/
+
+
+.btn-whitewhite{
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: solid #ffffff;
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+
+
+
+/*----------SECTION FOOTER-------*/
+
+
+.section-footer{
+    padding: 100px 0;
+    background-color: #0c2991;
+    color: white;
+}
+
+.contain-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-footer-logo{
+    width: 100px;
+}
+
+
+.link-footer{
+    display: flex;
+    gap: 40px;
+}
+
+.footer-color-link{
+    color: white;
+}
+
+.img-sie-footer{
+    width: 200px;
+    padding: 20px 0;
+}
