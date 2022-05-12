@@ -176,7 +176,6 @@ a:hover{
 
 .img-playstation5{
     width: 100%;
-    position: relative;
 }
 
 .playstation-component{
@@ -196,21 +195,6 @@ a:hover{
     padding: 50px 0;
 }
 
-.img-none{
-    width: 546px;
-    background-color: white;
-    position: absolute;
-    top: -587px;
-    left: 150px;
-    display: none;
-}
-.img-2-none{
-    left: 28px;
-}
-
-.effetto-hover-img:hover .img-none{
-    display: inline;
-}
 
 
 
