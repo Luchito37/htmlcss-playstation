@@ -5,12 +5,18 @@
 }
 
 
+header{
+    position: sticky;
+    top: -38px;
+    z-index: 999;
+}
+
 a{
     text-decoration: none;
     color: black;
 }
 a:hover{
-    color: #76cdf8;
+    color: #006cf9;
 }
 .logo-nav-dark{
     padding: 10px;
@@ -27,6 +33,7 @@ a:hover{
     align-items: center;
     justify-content: space-between;
     font-size: 11px;
+    background-color: white;
 }
 
 .nav-white{
@@ -55,6 +62,12 @@ a:hover{
     border: solid #212529;
     padding: 0 10px;
     border-radius: 10px;
+}
+
+.humburger-menu{
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
 }
 
 
@@ -111,13 +124,12 @@ a:hover{
 }
 
 .container-img-banner:hover{
-    border: solid 8px white;
+    border: solid 4px white;
     box-shadow: 0px 0px 3px 6px #00ecff;
 }
 
 .img-baner-bottom{
     width: 100%;
-    border: solid 1px white;
     border-radius: 15px;
 }
 
@@ -164,6 +176,7 @@ a:hover{
 
 .img-playstation5{
     width: 100%;
+    position: relative;
 }
 
 .playstation-component{
@@ -181,6 +194,22 @@ a:hover{
 
 .section-second-bottom{
     padding: 50px 0;
+}
+
+.img-none{
+    width: 546px;
+    background-color: white;
+    position: absolute;
+    top: -587px;
+    left: 150px;
+    display: none;
+}
+.img-2-none{
+    left: 28px;
+}
+
+.effetto-hover-img:hover .img-none{
+    display: inline;
 }
 
 
